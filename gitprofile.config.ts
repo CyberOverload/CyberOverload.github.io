@@ -4,11 +4,6 @@ const CONFIG = {
   github: {
     username: 'CyberOverload', // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
@@ -16,66 +11,66 @@ const CONFIG = {
       header: '',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 0, // How many projects to display.
+        sortBy: 'stars',
+        limit: 0,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['user/my-project1', 'user/my-project2']
+          forks: false,
+          projects: [],
         },
       },
       manual: {
-        projects: [], // List of repository names to display. example: ['user/my-project1', 'user/my-project2']
+        projects: [],
       },
     },
-external: {
-  header: 'Portfolio',
-  projects: [
-    {
-      title: 'HenHaven',
-      description:
-        'Position: Lead Developer (Scripter & Builder) – HenHaven is a Roblox cartoon simulator where I served as Lead Developer. My main focus was scripting, though I also contributed significantly to building.',
-      imageUrl:
-        'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-      link: 'https://discord.gg/k56gKUf2Zb',
+    external: {
+      header: 'Portfolio',
+      projects: [
+        {
+          title: 'HenHaven',
+          description:
+            'Lead Developer (Scripter + Builder) for HenHaven, a Roblox cartoon simulator. Focused primarily on scripting while contributing significantly to building.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://discord.gg/k56gKUf2Zb',
+        },
+        {
+          title: 'The Royal British Army',
+          description:
+            'Project Manager for The Royal British Army. Developed Version 2.0 map from scratch, handling both building and scripting. Map inspired other groups, including ReaperMah\'s British Army V3.0.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://www.roblox.com/games/14317195787/British-Army-RBA',
+        },
+        {
+          title: 'United States Naval Academy',
+          description:
+            'Lead Developer (Builder) for USNA, a pre-made map widely adopted by Roblox military groups. Over 150 combined sales through multiple resellers, making it Cyber Development\'s most successful project.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://payhip.com/b/wK1yq',
+        },
+        {
+          title: 'Simulator Map (V1)',
+          description:
+            'Lead Developer (Builder) for Simulator Map V1, a pre-made simulator map developed to fill a gap in available simulator environments on Roblox.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://payhip.com/b/n8bmK',
+        },
+        {
+          title: 'Bondi Beach',
+          description:
+            'Lead Developer (Builder + Scripter) for Bondi Beach, a practice commission replicating real-life locations on Roblox. The project emphasizes realism and attention to detail.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://payhip.com/b/JBv3K',
+        },
+      ],
     },
-    {
-      title: 'The Royal British Army',
-      description:
-        'Position: Project Manager – I developed the complete Version 2.0 map for The Royal British Army, handling both building and scripting. This map later inspired features in other groups, including ReaperMah’s British Army V3.0. The group has since migrated to a Version 3.0 map created by the wider Cyber Development Team.',
-      imageUrl:
-        'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-      link: 'https://www.roblox.com/games/14317195787/British-Army-RBA',
-    },
-    {
-      title: 'United States Naval Academy',
-      description:
-        'Position: Lead Developer (Builder) – The United States Naval Academy (USNA) is a large-scale project designed as a pre-made Roblox map for military groups. With over 50 direct sales and more than 150 combined sales through licensed resellers, it stands as Cyber Development’s most successful project, earning dozens of positive reviews across the community.',
-      imageUrl:
-        'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-      link: 'https://payhip.com/b/wK1yq',
-    },
-    {
-      title: 'Simulator Map (V1)',
-      description:
-        'Position: Lead Developer (Builder) – Simulator Map V1 is Cyber Development’s first pre-made simulator map, created to address a gap in the Roblox marketplace where simulator maps were in short supply.',
-      imageUrl:
-        'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-      link: 'https://payhip.com/b/n8bmK',
-    },
-    {
-      title: 'Bondi Beach',
-      description:
-        'Position: Lead Developer (Builder & Scripter) – Bondi Beach was a commissioned practice project focused on replicating real-life locations in Roblox. Modeled after the famous Australian beach, it emphasizes realism and detail in both building and scripting.',
-      imageUrl:
-        'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-      link: 'https://payhip.com/b/JBv3K',
-    },
-  ],
-},
-
+  },
   seo: {
     title: 'Portfolio of CyberOverload',
-    description: 'test',
+    description: 'CyberOverload Roblox development projects and portfolio.',
     imageURL:
       'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
   },
@@ -102,7 +97,7 @@ external: {
     email: 'cyberdevelopmentstudio@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '',
   },
   skills: ['Skills:', 'Programming', 'Building', 'Animation', 'Specialisations:', 'MILSIM'],
   experiences: [
@@ -121,54 +116,17 @@ external: {
       companyLink: 'https://discord.gg/QkRDYWSePm',
     },
   ],
-  certifications: [
-    {
-      name: '',
-      body: '',
-      year: '',
-      link: '',
-    },
-  ],
+  certifications: [{ name: '', body: '', year: '', link: '' }],
   educations: [
-    {
-      institution: '',
-      degree: '',
-      from: '',
-      to: '',
-    },
-    {
-      institution: '',
-      degree: '',
-      from: '',
-      to: '',
-    },
+    { institution: '', degree: '', from: '', to: '' },
+    { institution: '', degree: '', from: '', to: '' },
   ],
   publications: [
-    {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description: '',
-    },
-    {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description: '',
-    },
+    { title: '', conferenceName: '', journalName: '', authors: '', link: '', description: '' },
+    { title: '', conferenceName: '', journalName: '', authors: '', link: '', description: '' },
   ],
-  blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
-    limit: 0, // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+  blog: { source: '', username: '', limit: 0 },
+  googleAnalytics: { id: '' },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
