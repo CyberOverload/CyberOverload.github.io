@@ -52,26 +52,7 @@ const CONFIG = {
     },
   },
   seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: '' },
-  social: {
-    linkedin: '',
-    x: '',
-    mastodon: '',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: '',
-    dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
     discord: 'CyberOverload',
-    telegram: '',
-    website: '',
-    phone: '',
     email: 'cyberdevelopmentstudio@gmail.com',
   },
   resume: {
