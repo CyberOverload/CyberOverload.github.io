@@ -63,6 +63,14 @@ const CONFIG = {
             'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
           link: 'https://payhip.com/b/n8bmK',
         },
+        {
+          title: 'Bondi Beach',
+          description:
+            'Position: Lead Developer (Builder + Scripter) - Bondi Beach was a practice commission of replicating real life into ROBLOX, please search real life images of Bondi Beach so you can see the realism behind the project',
+          imageUrl:
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+          link: 'https://payhip.com/b/JBv3K',
+        },
       ],
     },
   },
