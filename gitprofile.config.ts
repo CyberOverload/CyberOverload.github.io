@@ -79,10 +79,10 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Lua Scripting',
-    'Animation',
+    'Skills:',
+    'Programming',
     'Building',
-    '--------',
+    'Animation',
     'Specialisations:',
     'MILSIM',
   ],
