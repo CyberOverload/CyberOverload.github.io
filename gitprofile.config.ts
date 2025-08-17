@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
           link: 'https://example.com',
         },
         {
@@ -45,13 +45,13 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
           link: 'https://example.com',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg' },
+  seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: 'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157' },
   discord: 'CyberOverload',
   email: 'cyberdevelopmentstudio@gmail.com',
 
