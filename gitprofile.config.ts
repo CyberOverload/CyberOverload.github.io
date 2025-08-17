@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,12 +52,11 @@ const CONFIG = {
     },
   },
   seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: '' },
-    discord: 'CyberOverload',
-    email: 'cyberdevelopmentstudio@gmail.com',
-  },
+  discord: 'CyberOverload',
+  email: 'cyberdevelopmentstudio@gmail.com',
+
   resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Skills:',
@@ -112,8 +111,7 @@ const CONFIG = {
       journalName: '',
       authors: '',
       link: '',
-      description:
-        '',
+      description: '',
     },
     {
       title: '',
@@ -121,8 +119,7 @@ const CONFIG = {
       journalName: '',
       authors: '',
       link: '',
-      description:
-        '',
+      description: '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -151,9 +148,7 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'dark',
-    ],
+    themes: ['dark', 'lofi'],
   },
 
   // Optional Footer. Supports plain text or HTML.
