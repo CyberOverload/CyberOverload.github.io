@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg' },
   discord: 'CyberOverload',
   email: 'cyberdevelopmentstudio@gmail.com',
 
@@ -142,10 +142,10 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: ['dark', 'lofi'],
