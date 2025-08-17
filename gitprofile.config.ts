@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+            'https://www.bigfootdigital.co.uk/wp-content/uploads/2020/07/image-optimisation-scaled.jpg',
           link: 'https://example.com',
         },
         {
