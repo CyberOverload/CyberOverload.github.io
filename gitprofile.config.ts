@@ -20,12 +20,11 @@ const CONFIG = {
         limit: 0, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['user/my-project1', 'user/my-project2']
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['user/my-project1', 'user/my-project2']
       },
     },
     external: {
@@ -37,7 +36,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://www.bigfootdigital.co.uk/wp-content/uploads/2020/07/image-optimisation-scaled.jpg',
+            'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
           link: 'https://example.com',
         },
         {
@@ -51,21 +50,38 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of CyberOverload', description: '', imageURL: 'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157' },
-  discord: 'CyberOverload',
-  email: 'cyberdevelopmentstudio@gmail.com',
-
+  seo: {
+    title: 'Portfolio of CyberOverload',
+    description: '',
+    imageURL:
+      'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
+  },
+  social: {
+    linkedin: '',
+    x: '',
+    mastodon: '',
+    researchGate: '',
+    facebook: '',
+    instagram: '',
+    reddit: '',
+    threads: '',
+    youtube: '',
+    udemy: '',
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '',
+    discord: 'CyberOverload',
+    telegram: '',
+    website: '',
+    phone: '',
+    email: 'cyberdevelopmentstudio@gmail.com',
+  },
   resume: {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
-    'Skills:',
-    'Programming',
-    'Building',
-    'Animation',
-    'Specialisations:',
-    'MILSIM',
-  ],
+  skills: ['Skills:', 'Programming', 'Building', 'Animation', 'Specialisations:', 'MILSIM'],
   experiences: [
     {
       company: 'Cyber Network',
@@ -122,7 +138,6 @@ const CONFIG = {
       description: '',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
@@ -131,29 +146,15 @@ const CONFIG = {
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: true,
-
-    // Display the ring in Profile picture
     displayAvatarRing: false,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: ['dark', 'lofi'],
   },
-
-  // Optional Footer. Supports plain text or HTML.
   footer: `CyberOverload's Roblox Development Portfolio`,
-
   enablePWA: true,
 };
 
