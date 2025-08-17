@@ -32,36 +32,36 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'HenHaven',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Position: Lead Developer (Scripter + Builder) HenHaven is a roblox cartoon simulator in which I was the Lead Developer, primarily focused on scripting but also partaking in a large portion of building.',
           imageUrl:
             'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-          link: 'https://example.com',
+          link: 'https://discord.gg/k56gKUf2Zb',
         },
         {
-          title: 'Project Name',
+          title: 'The Royal British Army',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Position: Project Manager - The Royal British Army is a large-scale British Army where I developed there Version 2.0 map completely from scratch, both building and scripting. They have now migrated to a Version 3.0 map using a product developed by the wider Cyber Development Team. This map is known for being visited by ReaperMah to gain ideas for ReaperMah's British Army (V3.0)',
           imageUrl:
             'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-          link: 'https://example.com',
+          link: 'https://www.roblox.com/games/14317195787/British-Army-RBA',
         },
         {
-          title: 'Project Name',
+          title: 'United States Naval Academy',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Position: Lead Developer (Builder) - United States Naval Academy was a large-scale project made to design the ideal pre-made map for ROBLOX Military Groups. The map is now widely used, with several large naval groups adopting it on the platform. With over 50 sales the USNA is Cyber Developments most successful project, with dozens of positive reviews.The map is now sold by several major tech stores as officially licensed resellers, with over 150+ combined sales.',
           imageUrl:
             'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-          link: 'https://example.com',
+          link: 'https://payhip.com/b/wK1yq',
         },
         {
-          title: 'Project Name',
+          title: 'Simulator Map (V1)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Position: Lead Developer (Builder) - Simulator Map V1 is Cyber Developments primary project to develop a pre-made simulator map, an area which currently lacks supply.',
           imageUrl:
             'https://media.discordapp.net/attachments/1387912559465594880/1406582412326080512/raw.png?ex=68a2fd74&is=68a1abf4&hm=15a869f2aaf75b6691e8c223a89683e58d311aac6d7f08bd2f8aba759ba88944&=&format=webp&quality=lossless&width=1157&height=1157',
-          link: 'https://example.com',
+          link: 'https://payhip.com/b/n8bmK',
         },
       ],
     },
