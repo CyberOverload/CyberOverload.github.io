@@ -151,7 +151,7 @@ const CONFIG = {
     defaultTheme: 'lofi',
     disableSwitch: false,
     respectPrefersColorScheme: true,
-    displayAvatarRing: false,
+    displayAvatarRing: true,
     themes: ['dark', 'lofi'],
   },
   footer: `CyberOverload's Roblox Development Portfolio`,
